@@ -1,0 +1,60 @@
+.task-component {
+    border: #5a41bc 2px solid;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.task-component:hover {
+    transform: scale(1.02);
+}
+
+.task-top-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task-smallview-date {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.task-smallview-title {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a41bc;
+}
+.task-smallview-content {
+    margin-top: 20px;
+    word-break: break-all;
+}
+.task-helper-components {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-display-buttons {
+    margin-top: 1rem;
+}
+.task-display-buttons > button {
+    padding: 3px 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task-display-buttons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
