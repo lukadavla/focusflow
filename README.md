@@ -51,8 +51,9 @@
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Docker
-- Docker Compose
+- Docker Desktop
+- Python 3.10 or higher
+- Node.js
 
 ### Development Setup
 
